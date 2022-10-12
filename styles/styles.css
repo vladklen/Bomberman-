@@ -1,0 +1,269 @@
+
+html, body {
+	font-family: 'Silkscreen', cursive;
+	margin: 0;
+	min-height: 100vh;
+	box-sizing: border-box;
+	font-family: "Exo 2", sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.app {
+	font-family: 'Silkscreen', cursive;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}
+.header__list{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+.error{
+	color: red;
+}
+.stats{
+	display: flex;
+	flex-direction: row;
+	font-size: 24px;
+	max-width: 992px;
+	text-align: center;
+	height: 50px;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	margin: 0 auto;
+}
+.stats>div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.game-page{
+	width: 100%;
+	text-align: center;
+}
+.scorelist-page,
+.gameover-page{
+	color: white;
+	text-align: center;
+}
+
+.main-page{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	height: auto;
+	background: url(../img/BombermanStartScreen.png) no-repeat black center top;
+}
+
+.mute:before {
+   font-family: "Font Awesome 5 Free";
+   content: "\f028";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight:900;
+}
+
+.muted:before {
+   font-family: "Font Awesome 5 Free";
+   content: "\f6a9";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight:900;
+}
+
+.main-page>p{
+	color: white;
+	min-height: 400px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.mainmenu{
+	background-color: #000;
+}
+
+.mainmenu__list {
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+.mainmenu li {
+  list-style: none;
+}
+.header__list a,
+.mainmenu__link {
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 25px;
+	color: white;
+	text-decoration: none;
+}
+
+.mainmenu__link:hover:before {
+   font-family: "Font Awesome 5 Free";
+   content: "\f04b";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight:900;
+}
+
+.mainmenu__link.active {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+}
+.rules-page{
+	width: 100%;
+	align-items: center;
+	color: white;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px;
+	text-indent: 20px;
+}
+.rules-page > *{
+	min-width: 480px;
+	width: 700px;
+}
+
+.content {
+	display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.level-page{
+	color: white;
+}
+
+.footer{
+	background-color: #000;
+	color: white;
+	text-align: center;
+}
+
+/*       Работа с формами регистрации            */
+
+.signin-page,
+.signup-page{
+	font-family:Arial, Helvetica, sans-serif;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.sign-form{
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #7c7c7c;
+   border-top-color: #fff;
+   border-bottom-color: #131313;
+   border-left-color: #fff;
+   background: #c0c0c0;
+   width: 90%;
+   max-width: 500px;
+	justify-content: flex-start;
+}
+
+.sign-form > h2{
+	background: #000080;
+   color: #fff;
+   padding: 4px;
+   font-weight: bold;
+	margin: 0px;
+}
+
+.form input:active,
+.form input:focus{
+		outline: 2px dotted rgb(52, 52, 56);
+		outline-offset: 0;
+}
+.form p{
+	margin: 0px;
+}
+.form > input{
+	padding: 5px;
+   border: 1px solid #fff;
+   border-top: none;
+	box-shadow: -2px -2px #818181, -2px 0 #818181, 0 -2px #818181, -4px -4px black, -4px 0 black, 0 -4px black, 2px 2px #e0dede, 0 2px #e0dede, 2px 0 #e0dede,  2px -2px #818181, -2px 2px #e0dede, -4px 2px black, -4px 4px white, 4px 4px white, 4px 0 white, 0 4px white, 2px -4px black, 4px -4px white;
+}
+
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px;
+}
+
+
+.form__buttons button{
+	border: 1px solid #131313;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    background: #c0c0c0;
+    width: 75px;
+    text-align: center;
+    padding: 5px 0;
+    float: right;
+    margin-left: 5px;
+}
+
+
+.form__buttons button:hover {
+	border-top: 2px solid #444;
+   border-left: 2px solid #444;
+   box-shadow: inset 1px 1px white, inset -1px -1px #777;
+}
+.form__buttons button:active {
+	box-shadow: -2px -2px #818181, -2px 0 #818181, 0 -2px #818181, -4px -4px black, -4px 0 black, 0 -4px black, 2px 2px #e0dede, 0 2px #e0dede, 2px 0 #e0dede,  2px -2px #818181, -2px 2px #e0dede, -4px 2px black, -4px 4px white, 4px 4px white, 4px 0 white, 0 4px white, 2px -4px black, 4px -4px white;
+}
+
+
+.score-list{
+	display: flex;
+	flex-direction: column;
+}
+
+.scorelist-page{
+	min-width: 380px;
+	width: 500px;
+}
+.score-table{
+	width: 100%;
+}
+.score-table  th{
+	padding: 20px 10px;
+}
+.score-table  td{
+	padding: 5px 10px;
+}
+
+
+
