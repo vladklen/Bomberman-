@@ -3,7 +3,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Play](#setup)
+* [ScreenShots](#Screenshots)
 
 ## General info
 
@@ -17,12 +18,12 @@ Project is created with:
 * HTML/CSS/JS
 
 	
-## Setup
+## Play
 To run this project, just click the link:
 
+![PLAY](https://vladklen.github.io/Bomberman-/#signin)
 
-```
-https://vladklen.github.io/Bomberman-/#signin
 
-```
+## Screenshots
+
 ![ScreenShots](ссылка)
