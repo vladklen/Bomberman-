@@ -21,9 +21,9 @@ Project is created with:
 ## Play
 To run this project, just click the link:
 
-![PLAY](https://vladklen.github.io/Bomberman-/#signin)
+[PLAY](https://vladklen.github.io/Bomberman-/#signin)
 
 
 ## Screenshots
 
-![ScreenShots](ссылка)
+![ScreenShots](https://github.com/vladklen/Files/blob/main/Pictures/BombScreen/1.png)
