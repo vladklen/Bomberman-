@@ -21,9 +21,8 @@ Project is created with:
 To run this project, just click the link:
 
 
-* [Play game](#https://vladklen.github.io/Bomberman-/#signin)
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+https://vladklen.github.io/Bomberman-/#signin
+
 ```
+![ScreenShots](ссылка)
